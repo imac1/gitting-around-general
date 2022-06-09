@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+touch remote-change.txt
+git add remote-change.txt
+
+git commit -am 'Remote changed'
+git push
+git reset --hard HEAD^
+touch local-change.txt
+git add .
+git commit -am 'Local changed'

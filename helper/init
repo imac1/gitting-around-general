@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+chmod +x ./helper/* ./scripts/*
+git add .
+git commit -m 'Add script rights'
+
+main_branch_name="development"
+
+for file in scripts/*; do
+    ./helper/delete_branch ${file#scripts/} 2>> .errors
+done
+
+for file in scripts/*; do 
+    ./helper/create_branch ${file#scripts/}  2>> .errors
+    git checkout ${main_branch_name}
+done

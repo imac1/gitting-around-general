@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+echo "I work" > work.txt
+git add work.txt
+
+git commit -am 'Remote changed'
+git push
+git reset --hard HEAD^
+echo "I rest after I work" > work.txt
+git add work.txt
+git add .
+git commit -am 'Local changed'

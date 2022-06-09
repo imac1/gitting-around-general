@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+
+touch a b c
+git add .
+git commit -m '1'
+touch .abc
+git add .
+git commit -m '2'
+rm a b c .abc
+git commit -m '1'
+touch result.txt
+git add .
+git commit -m '2'
+rm result.txt
+git add .
+git commit -m '1'
+touch result
+git add .
+git commit -m '1'

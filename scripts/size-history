@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+
+echo "Terminus Est" > names.txt
+echo "Dorcas" >> names.txt
+echo "Professor" >> names.txt
+echo "Urth" >> names.txt
+git add names.txt
+git commit -m 'New Sun'
+echo "Bene Gesserit" >> names.txt
+echo "Vladimir" >> names.txt
+echo "The Lady Jessica" >> names.txt
+git commit -am 'The Dune'
+echo "Bene Gesserit" > names.txt
+git commit -am ':)))'
+git revert --no-edit $(git rev-parse HEAD)
+echo "Paul" >> names.txt
+echo "Atreides" >> names.txt
+git commit -am 'Kwisatz Haderach'
