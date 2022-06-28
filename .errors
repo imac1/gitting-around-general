@@ -32,3 +32,10 @@ remote:      https://github.com/imac1/gitting-around-general/pull/new/find-secre
 remote: 
 To github.com:imac1/gitting-around-general.git
  * [new branch]      find-secret -> find-secret
+Switched to a new branch 'remote-change'
+remote: 
+remote: Create a pull request for 'remote-change' on GitHub by visiting:        
+remote:      https://github.com/imac1/gitting-around-general/pull/new/remote-change        
+remote: 
+To github.com:imac1/gitting-around-general.git
+ * [new branch]      remote-change -> remote-change
