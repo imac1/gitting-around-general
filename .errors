@@ -1,0 +1,27 @@
+error: pathspec 'development' did not match any file(s) known to git
+error: unable to delete 'collect-files': remote ref does not exist
+error: failed to push some refs to 'github.com:imac1/gitting-around-general.git'
+error: branch 'collect-files' not found.
+error: pathspec 'development' did not match any file(s) known to git
+error: unable to delete 'find-secret': remote ref does not exist
+error: failed to push some refs to 'github.com:imac1/gitting-around-general.git'
+error: branch 'find-secret' not found.
+error: pathspec 'development' did not match any file(s) known to git
+error: unable to delete 'remote-change': remote ref does not exist
+error: failed to push some refs to 'github.com:imac1/gitting-around-general.git'
+error: branch 'remote-change' not found.
+error: pathspec 'development' did not match any file(s) known to git
+error: unable to delete 'resolve-conflict': remote ref does not exist
+error: failed to push some refs to 'github.com:imac1/gitting-around-general.git'
+error: branch 'resolve-conflict' not found.
+error: pathspec 'development' did not match any file(s) known to git
+error: unable to delete 'size-history': remote ref does not exist
+error: failed to push some refs to 'github.com:imac1/gitting-around-general.git'
+error: branch 'size-history' not found.
+Switched to a new branch 'collect-files'
+remote: 
+remote: Create a pull request for 'collect-files' on GitHub by visiting:        
+remote:      https://github.com/imac1/gitting-around-general/pull/new/collect-files        
+remote: 
+To github.com:imac1/gitting-around-general.git
+ * [new branch]      collect-files -> collect-files
