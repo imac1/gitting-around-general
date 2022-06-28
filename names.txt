@@ -5,3 +5,5 @@ Urth
 Bene Gesserit
 Vladimir
 The Lady Jessica
+Paul
+Atreides
