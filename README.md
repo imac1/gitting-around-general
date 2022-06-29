@@ -54,6 +54,7 @@ I rest after I work
     - Knowledge of what 42 means in programming.
 
 6. On the `size-history` branch there are multiple commits changing the `names.txt` file. Find all versions of `names.txt` and the size (in bytes) for each version. Collect all sizes of `names.txt` separated by commas in a new `result.txt` file starting with the oldest, then commit your changes. You should visit all previous commits of this repository and observe the size of a changing file.
+'git ls-tree -r -l  sha'
     - Executing `git log --name-only` after executing `git checkout size-history` shows a new commit adding `result.txt`.
     - The commit message is meaningful and describes the change accurately.
     - Executing `cat result.txt` after executing `git checkout size-history` in the shell shows a 5 elements list starting with 35, ending with 89
